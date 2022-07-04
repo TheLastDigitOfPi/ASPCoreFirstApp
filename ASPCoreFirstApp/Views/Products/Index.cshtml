@@ -1,0 +1,46 @@
+﻿@model IEnumerable<ASPCoreFirstApp.Models.ProductModel>
+
+
+
+<div class="container d-flex flex-wrap">
+    @foreach (var item in Model)
+    {
+        <partial name="_productCard" model="item" />
+    }
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="editForm" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Edit Item</h5>
+                <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="form-group">
+                    <label for="Id" class="control-label"></label>
+                    <input id="model-input-id" for="Id" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Name" class="control-label"></label>
+                    <input id="model-input-name" for="Name" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Price" class="control-label"></label>
+                    <input id="model-input-price" for="Price" class="form-control" />
+                </div>
+                <div class="form-group">
+                    <label for="Description" class="control-label"></label>
+                    <input id="model-input-description" for="Description" class="form-control" />
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button id="save-button" type="button" class="btn btn-primary btn-secondary" data-dismiss="modal">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>
