@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Daniel Davenport\\source\\repos\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj": {}
+    "C:\\Users\\Daniel\\Documents\\GitHub\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Daniel Davenport\\source\\repos\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj": {
+    "C:\\Users\\Daniel\\Documents\\GitHub\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Daniel Davenport\\source\\repos\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj",
+        "projectUniqueName": "C:\\Users\\Daniel\\Documents\\GitHub\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj",
         "projectName": "ASPCoreFirstApp",
-        "projectPath": "C:\\Users\\Daniel Davenport\\source\\repos\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj",
-        "packagesPath": "C:\\Users\\Daniel Davenport\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Daniel Davenport\\source\\repos\\ASPCoreFirstApp\\ASPCoreFirstApp\\obj\\",
+        "projectPath": "C:\\Users\\Daniel\\Documents\\GitHub\\ASPCoreFirstApp\\ASPCoreFirstApp\\ASPCoreFirstApp.csproj",
+        "packagesPath": "C:\\Users\\Daniel\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Daniel\\Documents\\GitHub\\ASPCoreFirstApp\\ASPCoreFirstApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Daniel Davenport\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Daniel\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
