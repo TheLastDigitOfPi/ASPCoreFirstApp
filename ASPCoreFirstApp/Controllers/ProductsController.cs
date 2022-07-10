@@ -8,10 +8,14 @@ namespace ASPCoreFirstApp.Controllers
 {
     public class ProductsController : Controller
     {
-        ProductsDAO repository = new ProductsDAO();
-        public ProductsController()
+        //Comment out one of these to chosse database source
+        //HardCodedMovieDataRepository repository = new HardCodedMovieDataRepository();
+        //ProductsDAO repository = new ProductsDAO();
+
+        public IProductsDataService repository { get; set; }
+        public ProductsController(IProductsDataService dataService)
         {
-            repository = new ProductsDAO();
+            repository = dataService;
         }
 
         public IActionResult Index()
